@@ -1,3 +1,4 @@
+"Originally developed in Jan 2023, pushed to GitHub in April 2025."
 # The Economics of Super Bowl Advertising
 
 This project leverages **Python** and **Microsoft PowerBI** to analyze the economic dynamics of Super Bowl advertising. The original dataset is stored in the **original_data** folder.
