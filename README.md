@@ -1,31 +1,27 @@
-![super_bowl](img/football_two.jpg)
+# The Economics of Super Bowl Advertising
 
-### **Super Bowl Ads Analysis**
+This project leverages **Python** and **Microsoft PowerBI** to analyze the economic dynamics of Super Bowl advertising. The original dataset is stored in the **original_data** folder.
 
-This project was accomplished using two Python programming language & Microsoft PowerBI. 
+**Python** was primarily employed to:
+- **Load and structure the data** for analysis.
+- **Explore and understand the data**, which included:
+  - **Renaming columns** for clarity and consistency.
+  - **Performing data cleaning** to ensure accuracy.
+- Efficiently managing memory usage.
+- Conducting **feature engineering** to enhance the dataset.
+- Undertaking **exploratory data analysis** (EDA) to uncover trends and patterns.
+- Drawing insights and conclusions based on various **visualizations**, including plots and tables.
 
-The original data can be found in the **original_data** folder
+For a detailed exploration of the Python-based analysis, refer to the **superbowl_ads.ipynb** notebook.
 
-Python was primarily used for the following;
-- Loading the data.
-- Getting to know the data.
-    - *Renaming columns.*
-    - *Data cleaning.*
-- Memory management. 
-- Feature engineering.
-- Exploratory data analysis. 
-- Drawing observations and conclusions from plots, tables and other visualisations.
+Following the data preparation and analysis in **Python**, **Microsoft PowerBI** was used to generate interactive visualizations. These can be found in the **powerbi_analysis** folder and are based on the **analysis.csv** file, which was derived from the **Python** analysis in the **my_data** folder.
 
-Please kindly check **superbowl_ads.ipynb** for the analysis using Python.
+## Visualizations from PowerBI
 
-Using Python laid the foundation for Microsoft PowerBI visualisations which could be seen in the the **powerbi_analysis** folder. This was made using the **analysis.csv** dataset produced from the Python analysis found in the **my_data** folder.
+![PowerBI Table](img/tables_1.png)  
+![PowerBI Visualization](img/vis_5.png)
 
-### **Some images from PowerBI**
+## Conclusion
 
-![powerbi_1](img/tables_1.png)
-![powerbi_2](img/vis_5.png)
-
-### **Conclusion**
-
-- From the observations and taking into account of Youtube likes and views, Doritos is the most successful among the rest as the estimated cost of running its ads is relatively low compared to the top spender like Budweiser, Bud Light & Coca-Cola whose. 
-- Investors could make a solid profit with minimum cost on Doritos.
+- Upon analyzing the data and considering metrics such as YouTube views and likes, **Doritos** emerges as the most successful brand in terms of return on investment. Despite its relatively low ad spend, it outperforms larger advertisers like **Budweiser**, **Bud Light**, and **Coca-Cola**.
+- Investors aiming to maximize profitability with minimal costs should consider **Doritos** as a prime candidate for high returns on advertising investments.
